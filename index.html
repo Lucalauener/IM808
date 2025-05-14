@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>GießMich Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌿 GießMich Dashboard</h1>
+
+<!-- Formular zur Auswahl -->
+    <div class="section" id="formular">
+      <h2>Aktive Pflanze wählen</h2>
+      <form id="updateForm">
+        <label for="name">Pflanze auswählen:</label>
+        <select id="name" name="name"></select>
+      </form>
+      <p id="status"></p>
+    </div>
+<!-- Aktive Pflanze -->
+    <div class="section" id="pflanzen">
+        <h2>Aktive Pflanze</h2>
+        <p>Lade Daten...</p>
+      </div>
+
+    <!-- Letzter Messwert -->
+    <div class="section" id="messwert">
+      <h2>Letzter Messwert</h2>
+      <p>Lade Daten...</p>
+    </div>
+
+    <!-- Feuchtigkeitsstatus -->
+    <div class="section" id="status-feld">
+      <h2>Feuchtigkeitsstatus</h2>
+      <div id="feucht-status" class="status-box">Lade...</div>
+    </div>
+
+    <!-- Lichtstatus -->
+    <div class="section" id="licht-feld">
+      <h2>Lichtstatus</h2>
+      <div id="licht-status" class="status-box">Lade...</div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

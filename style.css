@@ -1,0 +1,80 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 2em;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #3aa655;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 2em;
+  }
+  
+  .container {
+    max-width: 420px;
+    width: 100%;
+  }
+  
+  .section {
+    background: white;
+    border-radius: 20px;
+    padding: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  }
+  
+  .section h2 {
+    font-size: 1.2em;
+    color: #243167;
+    margin-bottom: 1em;
+  }
+  
+  .status-box {
+    padding: 1.2em;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  
+  /* Farbstatus */
+  .status-box[data-status="gut"] {
+    background-color: #ccffcc; /* grün */
+  }
+  
+  .status-box[data-status="warnung"] {
+    background-color: #ffcccc; /* rot */
+  }
+  .status-box[data-status="zuviel"] {
+    background-color: #e6ccff; /* violett */
+  }  
+  
+  .status-box[data-status="dunkel"] {
+    background-color: #cce0ff; /* blau */
+  }
+  
+  .status-box[data-status="hell"] {
+    background-color: #ffe0cc; /* orange */
+  }
+  
+  /* Dropdown */
+  select {
+    font-size: 1.1em;
+    padding: 0.8em;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  #status {
+    margin-top: 1em;
+    color: #3aa655;
+    font-weight: bold;
+    text-align: center;
+  }
+  
