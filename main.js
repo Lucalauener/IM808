@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 🌡️ Messwerte anzeigen
           document.getElementById("messwert").innerHTML = `
-            <h2>📟 Letzter Messwert</h2>
+            <h2>Letzter Messwert</h2>
             <p><strong>Zeitpunkt:</strong> ${mess.timestamp}</p>
             <p><strong>Feuchtigkeit:</strong> ${mess.feuchtigkeit} %</p>
             <p><strong>Licht:</strong> ${Math.round(mess.licht)} lx</p>
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 🌱 Aktive Pflanze anzeigen
           document.getElementById("pflanzen").innerHTML = `
-            <h2>🌱 Aktive Pflanze</h2>
+            <h2>Aktive Pflanze</h2>
             <p><strong>${pflanze.name}</strong> (${pflanze.botanischer_name})</p>
             <p>Feuchtigkeit: ${pflanze.feuchtigkeit_min}–${pflanze.feuchtigkeit_max} %</p>
             <p>Licht: ${pflanze.licht_min}–${pflanze.licht_max} lx</p>
