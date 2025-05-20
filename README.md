@@ -50,7 +50,7 @@ Das Design der Weboberfläche orientiert sich an modernen App-Interfaces, die au
 * **Autonomes System** – keine Cloud-Dienste oder Login nötig
 
 ### Beispiel Screenshots 
-![Uploading Bildschirmfoto 2025-05-20 um 18.46.51.png…]()
+
 
 * Dashboard mit Messwertanzeige
 * Farbliche Statusanzeige (rot / grün / violett)
