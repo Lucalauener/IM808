@@ -8,6 +8,7 @@
 Ein ESP32 liest analoge Sensoren aus und kommuniziert über WLAN mit einem Server. Das Projekt kombiniert Hardware, Webentwicklung, Datenbankanbindung und visuelles Feedback über einen LED-Ring.
 Die Weboberfläche zeigt aktuelle Werte, Pflanzendetails und den Gießstatus. Die Hardware gibt ein optisches Signal, wenn gegossen werden muss.
 
+![Alt-Text](bild.jpg)
 ---
 
 ## Modell (visuelles & funktionales Verhalten)
